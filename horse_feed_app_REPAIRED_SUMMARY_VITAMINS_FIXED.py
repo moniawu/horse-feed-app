@@ -19,7 +19,7 @@ if not st.session_state.auth:
 
     if pwd == PASSWORD:
         st.session_state.auth = True
-        st.experimental_rerun()
+       
     elif pwd:
         st.error("Nieprawidłowe hasło")
 
